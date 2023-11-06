@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Shopee</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3498db;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: white; font-size: 44px; font-weight: bold; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;text-shadow: black 6px 3px;">Trendy Threads</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="padding-left:50%">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Shop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                            Shop By Category
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#" style="color: #3498db;">Men's</a></li>
+                            <li><a class="dropdown-item" href="#" style="color: #3498db;">Women's</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#" style="color: #3498db;">Kid's</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" style="color: lightgray;"></a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="carousel-1.avif" class="d-block img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Men's Wear</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="carousel-2.avif" class="d-block img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Women's Wear</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="carousel-3.avif" class="d-block img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Kid's wear</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Shop By Category -->
+    <h1 style="text-align: center; padding: 40px;">Shop By Category</h1>
+    <ul class="list-unstyled d-flex flex-wrap justify-content-center">
+        <li style="padding-right: 30px;">
+            <div class="card" style="width: 18rem;">
+                <img src="cate-1.avif" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Trousers</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.amazon.in/s?k=trousers&ref=nb_sb_noss" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </li>
+        <li style="padding-right: 30px;">
+            <div class="card img-fluid" style="width: 18rem;">
+                <img src="cate-2.avif" style="height: 200px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">T-shirts</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.amazon.in/s?k=t+shirts&crid=2TBZC4RKGM9MK&sprefix=t+shirts%2Caps%2C249&ref=nb_sb_noss_2" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </li>
+        <li style="padding-right: 30px;">
+            <div class="card" style="width: 18rem;">
+                <img src="cate-3.avif" style="height: 200px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Western Wear</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.amazon.in/s?k=westernb+wear+for+men+and+women&crid=1AH3TAGXC5PC6&sprefix=westernb+wearfor+men+and+women%2Caps%2C426&ref=nb_sb_noss" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </li>
+        <li style="padding-right: 30px;">
+            <div class="card" style="width: 18rem;">
+                <img src="cate-4.avif" style="height: 200px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Indian Wear</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.amazon.in/RENVAANI-FASHION-Traditional-Unstitched-Kanjivaram/dp/B0CBPP745N/ref=sr_1_12" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <!-- Fashion On a Budget -->
+    <h1 style="text-align: center; padding-top: 40px;">Fashion On a Budget</h1>
+    <main class="container">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center" style="padding: 30px;">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm ">
+                    <div class="card-header py-3 bg-info">
+                        <h4 class="my-0 fw-normal ">Kurtas</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">50%<small class="text-muted fw-light"> Discount</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Shop above Rs.599</li>
+                            <li>Free Delivery</li>
+                            <li>Easy Return</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg bg-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3 bg-warning">
+                        <h4 class="my-0 fw-normal">Trousers</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">25%<small class="text-muted fw-light"> Discount</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Shop above Rs.399</li>
+                            <li>Free Delivery</li>
+                            <li>Easy Return</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-white  border-primary bg-dark" >
+                        <h4 class="my-0 fw-normal">Indian Wear</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">30%<small class="text-muted fw-light"> Discount</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Shop above Rs.1999</li>
+                            <li>Free Delivery</li>
+                            <li>Easy Return</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="foot" style="align-items: center;justify-content: center;text-align: center;">
+        <footer class="blog-footer">
+            <p>E-commerce template built by <a href="https://www.linkedin.com/in/mitali-patil-3ab106231/">Mitali Patil</a>.</p>
+            <p>
+              <a href="#">Back to top</a>
+            </p>
+          </footer>
+    </div>
+</body>
+</html>
